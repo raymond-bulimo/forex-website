@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stewart Stewart - Forex Trading Guru">
+    <meta name="keywords" content="Forex, Trading, Forex Guru, Currency Exchange">
+    <meta name="author" content="Stewart Stewart">
+    <title>Stewart Stewart: Forex Trading Guru</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            background-color: #001f3f; /* Deep blue background for the body */
+        }
+
+        /* Header Section */
+        header {
+            position: relative;
+            height: 80vh; /* Adjust height to match your preference */
+			width: 220vh;	
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background: url('https://images.unsplash.com/photo-1539586345401-64d6e0fa5793?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920') no-repeat center center;
+            background-size: cover;
+			background: url('myforeximage.jpg') no-repeat center center/cover;
+        }/* Collapsible Button Style */
+.collapsible {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.collapsible:hover {
+    background-color: #555;
+}
+
+/* Collapsible Content */
+.content {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}#links {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+#links {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+#blog {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1e3d59; /* Dark blue theme */
+    color: white;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.blog-post {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.blog-post h3 {
+    color: #f4a261;
+}
+
+.blog-post a {
+    color: #f4a261;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+
+}
+
+
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px black;
+			color: #f4a261; /* Change this to your desired color */
+        }
+
+        header p {
+            font-size: 1.2rem;
+            text-shadow: 1px 1px black;
+        }
+
+        /* Navigation Menu */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background: #002b5c; /* Navy blue */
+            padding: 1rem 0;
+            width: 100%;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background: #00509e; /* Light blue */
+        }
+
+        /* Section Styles */
+        section {
+            padding: 2rem;
+            text-align: center;
+            background: #003f7f; /* Dark blue background */
+            margin: 1rem 0;
+            color: white;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #002b5c; /* Navy blue */
+        }
+
+        footer a {
+            color: #00aaff; /* Bright blue */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Styles */
+        button {
+            background: #00509e;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0073e6; /* Lighter blue */
+        }
+
+        /* Input and Textarea Styles */
+        input, textarea {
+            width: 90%;
+            max-width: 600px;
+            margin: 10px auto;
+            padding: 0.5rem;
+            border: 1px solid #00509e;
+            border-radius: 5px;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+            <h1>Stewart Stewart: Forex Trading Guru</h1>
+            <p>Your trusted guide in navigating the forex market.</p>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#learn">Learn Forex</a>
+        <a href="#referrals">Referrals</a>
+        <a href="#contact">Contact</a>
+        <a href="#charts">Live Charts</a>
+    </nav>
+
+    <!-- Learn Forex Section -->
+    <section id="learn">
+    <h2>Learn Forex</h2>
+    <p>Forex trading involves currency exchange in the global market. Click on the topics below to learn more:</p>
+    
+    <!-- Collapsible Sections -->
+    <div style="margin-top: 20px;">
+        <button class="collapsible">What is Forex Trading?</button>
+        <div class="content">
+            <p>Forex trading is the act of buying and selling currencies on the foreign exchange market with the goal of making a profit. It is one of the largest financial markets globally, operating 24 hours a day.</p>
+        </div>
+
+        <button class="collapsible">How Does Forex Work?</button>
+        <div class="content">
+            <p>Forex operates via a global network of banks, brokers, and financial institutions. Traders use this network to buy and sell currency pairs, speculating on exchange rate fluctuations.</p>
+        </div>
+
+        <button class="collapsible">Key Terms in Forex Trading</button>
+        <div class="content">
+            <ul>
+                <li><strong>Pip:</strong> The smallest price movement in a currency pair.</li>
+                <li><strong>Leverage:</strong> Borrowing funds to trade larger positions.</li>
+                <li><strong>Spread:</strong> The difference between the bid and ask price.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="links">
+    <h2>Join Our Communities</h2>
+    <div>
+        <button onclick="window.location.href='https://track.deriv.com/_IRTMgbbzScZMjdsyM5hasGNd7ZgqdRLk/1/';">Join Deriv Platform</button>
+    </div>
+    <div>
+        <button onclick="window.location.href='https://chat.whatsapp.com/Cmeueel0B6k2UC7s1gHJMF';">Join WhatsApp Group</button>
+    </div>
+    <div>
+        <button onclick="window.location.href='https://t.me/+W5hHzftGfwdmYzA0';">Join Telegram Group</button>
+    </div>
+</section>
+
+
+    <!-- Referrals Section -->
+    <section id="referrals">
+        <h2>Referrals</h2>
+        <p>Invite your friends to join and earn rewards! Click the button below to generate your unique referral code:</p>
+        <button onclick="generateCode()">Generate Referral Code</button>
+        <p id="referral-code" style="font-weight: bold; margin-top: 10px;"></p>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/webdesigning803@gmail.com" method="POST">
+        <!-- Hidden Fields -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://yoursite.com/thankyou.html">
+
+        <!-- Visible Fields -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+    <h2>Forex Insights</h2>
+    <p>Explore the latest updates, tips, and strategies in the Forex market.</p>
+    <div class="blog-container">
+        <article class="blog-post">
+            <h3>Sample Blog Post 1</h3>
+            <p>Discover essential strategies for Forex trading success. Stay tuned for more updates.</p>
+            <a href="#">Read More</a>
+        </article>
+        <article class="blog-post">
+            <h3>Sample Blog Post 2</h3>
+            <p>Understanding candlestick charts for better trading decisions. Learn more here.</p>
+            <a href="#">Read More</a>
+        </article>
+    </div>
+</section>
+
+
+
+    <!-- Live Forex Charts -->
+   <section id="charts">
+    <h2>Live Forex Charts</h2>
+    <!-- Existing Chart -->
+    <div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js">
+        {
+            "symbols": [
+                ["FOREXCOM:EURUSD"],
+                ["FOREXCOM:GBPUSD"],
+                ["FOREXCOM:USDJPY"]
+            ],
+            "chartOnly": false,
+            "width": "100%",
+            "height": "400",
+            "locale": "en",
+            "colorTheme": "dark",
+            "autosize": true
+        }
+        </script>
+    </div>
+
+      <div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js">
+                {
+                    "interval": "1D",
+                    "width": "100%",
+                    "isTransparent": true,
+                    "height": 600,
+                    "symbol": "OANDA:EURUSD",
+                    "locale": "en",
+                    "colorTheme": "dark"
+                }
+            </script>
+        </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Stewart Stewart Forex Trading Guru | <a href="#contact">Contact Me</a></p>
+    </footer>
+
+    <!-- Referral Code Generator Script -->
+    <script>
+        function generateCode() {
+            const code = 'STEWART' + Math.floor(Math.random() * 10000);
+            document.getElementById('referral-code').innerText = `Your Referral Code: ${code}`;
+        }
+    </script>
+	<script>
+    // JavaScript for Collapsible Buttons
+    const collapsibles = document.querySelectorAll(".collapsible");
+    collapsibles.forEach(button => {
+        button.addEventListener("click", function () {
+            this.classList.toggle("active");
+            const content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>
